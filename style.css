@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.904);
+}
+header{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+section  {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+section form .title input{
+    color: white;
+    background-color: rgb(26, 26, 26);
+    outline: none;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+section form .prices{
+    display: flex;
+    align-items: center;
+}
+section form .prices input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    background-color: rgb(26, 26, 26);
+    outline: none;
+    border: 1px solid black;
+    color: white;
+    transition: 0.3s;
+}
+section form .prices small{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(147, 41, 41);
+    color: white;
+}
+section form .group input{
+    color: white;
+    background-color: rgb(26, 26, 26);
+    outline: none;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+section form input:focus{
+    background-color: black;
+    scale: 1.05;
+}
+section form .create{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    width: 100%;
+    cursor: pointer;
+    background-color: #470053;
+    color: white;   
+    transition: 0.2s;
+}
+section form .create:hover{
+    background-color: #310044;
+}
+section form .search{
+    color: white;
+    background-color: rgb(26, 26, 26);
+    outline: none;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+.table table{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.table table tbody tr td .update-delete-table{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    width: 45%;
+    background-color: #470053;
+    color: white;   
+    transition: 0.2s;
+}
+.table table tbody tr td .update-delete-table:hover{
+    background-color: #310044;
+}
+section form  #delal button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    width: 100%;
+    cursor: pointer;
+    background-color: #470053;
+    color: white;   
+    transition: 0.2s; 
+}
+section form  #delal button{
+
+color: white;
+border: none;
+cursor: pointer;
+}

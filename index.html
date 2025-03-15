@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>CRUD</h1>
+            <p>product management system</p>
+        </div>    
+    </header>
+    <section>
+        <form >
+            <div class="title">
+              <input id="title" placeholder="title" type="text" >
+            </div>
+            <div class="prices">
+                <input onkeyup="calculateTotal()" id="price" placeholder="price" type="number">
+                <input onkeyup="calculateTotal()" id="taxes" placeholder="taxes" type="number">
+                <input onkeyup="calculateTotal()" id="ads" placeholder="ads" type="number">
+                <input onkeyup="calculateTotal()" id="discount" placeholder="discount" type="number">
+                <small id="total">total:</small>
+            </div>
+            <div class="group">
+                
+                <input id="category" type="text" placeholder="category">
+            </div>
+            <button id="create" class="create">Create</button>
+            
+
+            <span onclick="deleteall()" id="delal">
+                
+            </span>
+        </form>
+    </section>
+    <section class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>PRICE</th>
+                    <th>ADS</th>
+                    <th>TAXES</th>
+                    <th>DISCOUNT</th>
+                    <th>TOTAL</th>
+                    <th>CATEGORY</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>    
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
